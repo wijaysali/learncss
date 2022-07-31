@@ -1,0 +1,93 @@
+#tulisan{
+    font-size: 50px;
+    color: blueviolet;
+   }
+
+#tulisan_satu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+}
+
+#tulisan_dua{
+    color: darksalmon;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#tulisan_tiga{
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.box{
+    background-color: red;
+    padding: 10px;
+   }
+
+.box-pertama{
+    background-color: blueviolet;
+    height: 200px;
+    width: 300px;
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+.box-kedua{
+    background-color: coral;
+    height: 100px;|
+    width: 200px;
+    /* margin-left: 70px; */
+    padding-left: 70px;
+}
+
+/* .kotak{
+    background-color: bisque;
+    position: static;
+} */
+
+/* .kotak{
+    background-color: bisque;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+} */
+
+.kotak{
+    background-color: bisque;
+    position: fixed;
+    left: 40px;
+    padding: 10px;
+}
+
+/* #garis_1{
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+} */
+
+#garis_1{
+    border : 5px solid red;
+}
+
+#garis_2{
+    border-style: dotted;
+    border-width: 30px;
+}
+
+#garis_3{
+    border-style:double;
+    border-width: 50px;
+}
+
+.kendaraan{
+    list-style-type: circle;
+}
+
+.kendaraan2{
+    list-style-type: upper-roman;
+}
+
+
+body{
+    background-color:aqua;
+}
